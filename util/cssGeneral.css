@@ -1,0 +1,401 @@
+html {
+	font: normal 100%/1.2em "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+	display: block;
+	width: 50%;
+	border: 1px dotted #353535;
+	padding: 2px;
+	overflow: hidden;
+}
+
+.label-command {
+	display: block;
+	float: none;
+	width: auto;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+.input-command {
+	display: block;
+	width: 97%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+label {
+	background: transparent none;
+	display: block;
+	width: 20%;
+	float: left;
+	padding-right: 1%;
+	text-align: left;
+}
+
+input {
+	margin-left: 1%;
+	width: 30%;
+	border: #CCC 1px solid;
+}
+
+input:hover, #ent input:focus {
+	border: #999 1px solid;
+	background-color: #DDEEFF;
+}
+
+input[type="submit"] {
+	border: #DDEEFF 1px solid;
+	width: 30%;
+}
+
+.erreur {
+	background-color: #8ED90B;
+	color: rgb(203, 28, 128);
+	font-size: 1.1em;
+	width: 95%;
+}
+
+.message {
+	background-color: #8ED90B;
+	color: rgb(0, 0, 205);
+	font-size: 1.1em;
+	width: 95%;
+}
+
+#menu {
+	height: 2.5em;
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+
+#categories {
+	/* height: 2.5em; */
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+
+#produits {
+	padding: 0 150px;
+}
+
+#menu div {
+	height: 2.5em;
+	line-height: 2.5em;
+	list-style-type: none;
+	list-style-image: none;
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+	width: 200px;
+	border: 1px solid #600;
+	margin-right: 1px;
+	color: #FFFF00;
+	background: #73B600;
+}
+
+#menu li a, #categories li a {
+	text-decoration: none;
+}
+
+#categories div {
+	height: 2.5em;
+	line-height: 2.5em;
+	list-style-type: none;
+	list-style-image: none;
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+	width: 200px;
+	border: 1px solid #600;
+	margin-right: 1px;
+	color: #FFFF00;
+	background: #00b0b6;
+}
+
+#produits li, #produits li a {
+	list-style-type: none;
+	list-style-image: none;
+	display: inline;
+	width: 175px;
+	text-align: center;
+	height: 205px;
+	font: 1em "Trebuchet MS", Arial, sans-serif;
+}
+
+#pied {
+	text-align: center;
+	width: 98vw;
+	margin: 0;
+}
+
+#pied img {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.deletepanner {
+	height: 2.5em;
+	line-height: 2.5em;
+	list-style-type: none;
+	list-style-image: none;
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+	width: 200px;
+	border: 1px solid #600;
+	margin-right: 1px;
+	color: #ffffff;
+	background: #ff3300;
+	cursor: pointer;
+}
+
+.content-panier {
+	display: flex;
+}
+
+.trashpannier {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.trashpannier svg {
+	margin-top: 34px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.desc-produit {
+	display: inline-block;
+	line-height: 68px;
+	margin-left: 20px;
+}
+
+.img-panier {
+	display: inline-block;
+}
+
+.button-valid {
+	display: inline-block;
+	height: 29px;
+	vertical-align: middle;
+	width: 120px;
+	font-size: 14px;
+	line-height: 29px;
+	text-align: center;
+	font-weight: 800;
+	border-radius: 100px;
+	color: white;
+	background: rgb(0, 56, 255);
+	background: linear-gradient(0deg, rgba(0, 56, 255, 1) 0%, rgba(0, 202, 255, 1) 100%);
+	cursor: pointer;
+}
+
+.title-command {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.body-formulaire-command {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.flex-command {
+	display: flex;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.bandeauimg {
+	width: 100%;
+	height: auto;
+}
+
+.btn-passercommande {
+	display: inline-block;
+	color: #fff;
+	background-color: #0b5ed7;
+	border-color: #0a58ca;
+	margin: .25rem .125rem;
+	width: 200px;
+	margin-top: 20px;
+	cursor: pointer;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: 200ms;
+}
+
+.btn-passercommande:hover {
+	background-color: #0b5dd7d7;
+	transition: 200ms;
+}
+
+.centragebutton {
+	text-align: center;
+}
+
+.quantite-produit {
+	width: 150px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.title-quttite {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.quantiteitem {
+	display: block;
+	width: 60%;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.flex-qte {
+	width: 100%;
+	display: flex;
+}
+
+.button-qte {
+	display: block;
+	background-color: #adadad;
+	transition: 200ms;
+	width: 20%;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 46px;
+	text-decoration: none;
+	color: black;
+}
+
+.button-qte:hover {
+	background-color: #918f8f;
+	transition: 200ms;
+}
+
+.btn-admin {
+	height: 40px;
+	line-height: 40px;
+	width: 180px;
+	transform: translate(-50%);
+	margin-left: 50%;
+	border-radius: 5px;
+	background: #73B600;
+}
+
+.btn-admin:hover {
+	background: #69a500;
+	transition: 200ms;
+}
+
+.btn-admin a {
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.loginForm {
+	width: 400px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+
+.title-co {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+
+.btn-co {
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	background-color: #73B600;
+	color: white;
+	border-radius: 5px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-top: 20px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 15px;
+	font: 1em "Trebuchet MS", Arial, sans-serif;
+	transition: 200ms;
+}
+
+.btn-co:hover {
+	background-color: #69a700;
+	transition: 200ms;
+}
+
+.btn-co-produits {
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	background-color: #73B600;
+	color: white;
+	border-radius: 5px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-top: 20px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 15px;
+	transition: 200ms;
+}
+
+.disconnect{
+	position: absolute;
+	top: 20;
+	right: 20;
+	background: rgb(255, 68, 68);
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 15;
+	padding-right: 15;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.body-modificationProduit{
+	width: 400px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
